@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Amphibien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Amphibien">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Vertébré"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Animal">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Végétal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Aquatique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Aquatique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Milieu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Carnivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Carnivore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Femelle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Femelle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Animal"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Herbivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Herbivore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Invertébré -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Invertébré">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Animal"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Vertébré"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Male -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Male">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Mammifère -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Mammifère">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Vertébré"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Milieu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Milieu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Oiseau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Oiseau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Vertébré"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Omnivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Omnivore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Poisson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Poisson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Vertébré"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Reptile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Reptile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Vertébré"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Terrestre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Terrestre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Milieu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Vertébré -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Vertébré">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Végétal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Végétal"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Carnivore"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Herbivore"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Omnivore"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Amphibien"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Mammifère"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Oiseau"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Poisson"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-9#Reptile"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
