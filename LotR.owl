@@ -158,10 +158,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Commun -->
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Arme -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Commun">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Arme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Objet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Bijou -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Bijou">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Objet"/>
     </owl:Class>
     
 
@@ -169,14 +177,7 @@
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Elfe -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Elfe">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Fantastique"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aParents"/>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Elfe"/>
-                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:maxQualifiedCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
     </owl:Class>
     
 
@@ -184,6 +185,25 @@
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Elfe"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Hobbit"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Humain"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nain"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Orc"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Femelle"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Male"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aMere"/>
@@ -242,14 +262,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Fantastique -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Fantastique">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Femelle -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Femelle">
@@ -262,7 +274,7 @@
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Hobbit -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Hobbit">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Fantastique"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
     </owl:Class>
     
 
@@ -270,7 +282,7 @@
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Humain -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Humain">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Commun"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
     </owl:Class>
     
 
@@ -299,7 +311,7 @@
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nain -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nain">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Fantastique"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
     </owl:Class>
     
 
@@ -321,7 +333,7 @@
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Orc -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Orc">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Fantastique"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
     </owl:Class>
     
 
