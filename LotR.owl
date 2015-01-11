@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aEnfant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aEnfant">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aFille -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aFille">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Femelle"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aEnfant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aFils -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aFils">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Male"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aEnfant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aMere -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aMere">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Femelle"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aParents"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aParents -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aParents">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aPere -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aPere">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Male"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aParents"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#estPossedePar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#estPossedePar">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Objet"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#possede"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#habite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#habite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Lieu"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#possede -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#possede">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Objet"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Elfe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Elfe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Elfe"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Hobbit"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Humain"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nain"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Orc"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Femelle"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Male"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#possede"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Objet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#aParents"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#habite"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Lieu"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Femelle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Femelle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Hobbit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Hobbit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Humain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Humain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Lieu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Lieu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Male -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Male">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Objet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Objet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Orc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Orc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Elfe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Hobbit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Humain"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nain"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Orc"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
