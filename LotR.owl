@@ -91,6 +91,7 @@
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#estAmisde -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#estAmisde">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
     </owl:ObjectProperty>
@@ -100,6 +101,7 @@
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#estEnnemyde -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#estEnnemyde">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#estAmisde"/>
@@ -300,6 +302,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Maiar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Maiar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Male -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Male">
@@ -360,6 +370,7 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Elfe"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Hobbit"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Humain"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Maiar"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nain"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Orc"/>
         </owl:members>
