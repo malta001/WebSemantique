@@ -190,19 +190,23 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Elfe"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Hobbit"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Humain"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nain"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Orc"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Femelle"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Male"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Femelle"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Male"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Elfe"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Hobbit"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Humain"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Istari"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Maiar"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nain"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nazgûl"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Peredhel"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Vala"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -289,6 +293,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Istari -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Istari">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Lieu -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Lieu">
@@ -326,6 +338,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nazgûl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nazgûl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Objet -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Objet">
@@ -340,9 +360,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Orc -->
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Peredhel -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Orc">
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Peredhel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Vala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Vala">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Etre-vivant"/>
     </owl:Class>
     
@@ -370,9 +398,12 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Elfe"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Hobbit"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Humain"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Istari"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Maiar"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nain"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Orc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Nazgûl"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Peredhel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/untitled-ontology-10#Vala"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
