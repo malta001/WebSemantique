@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Elrond</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Elfe">
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Elf_(Middle-earth)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Elfe"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">532 Premier Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Elrond"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj1.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Bijou"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Anneau Unique</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/One_Ring"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu1.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Fondcombe</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Rivendell"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers27.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers27.0"/>
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0"/>
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0"/>
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu1.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0">
+	<possede xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj1.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu1.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj1.0">
+	<estPossedePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Aragorn</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Humain">
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Man_(Middle-earth)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Humain"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">2931 Troisième Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Aragorn_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj2.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Arme"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Dard</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Category:Dard_people"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu2.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Eriador</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Eriador"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers28.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers28.0"/>
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0"/>
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu2.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0">
+	<possede xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj2.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu2.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj2.0">
+	<estPossedePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Femelle"/>
+	<foaf:name>Arwen</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Elfe"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">241 Troisième Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Arwen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj3.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Arme"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Orcrist</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Orcrist"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Valinor</nom>
+	<owl:sameAs rdf:resource="http://wikidata.dbpedia.org/resource/Q368572"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers29.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers29.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0"/>
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu1.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers25.0">
+	<possede xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu1.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj3.0">
+	<estPossedePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers25.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Gandalf</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Maiar">
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Maiar"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Maiar"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Gandalf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj4.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Arme"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Andúril</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/And%C3%BAril"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu4.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Mirkwood</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Mirkwood"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers30.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers30.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers11.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0">
+	<possede xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj4.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj4.0">
+	<estPossedePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Sauron</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Maiar"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Sauron"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj5.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Arme"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Glamdring</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Glamdring"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu5.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Hobbitboug</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Shire_(Middle-earth)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers11.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers20.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers21.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers6.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu4.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0">
+	<possede xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj5.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu4.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers6.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj5.0">
+	<estPossedePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers6.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Legolas</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Elfe"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Legolas"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj6.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Arme"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Grond</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Grond"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu6.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Gondor</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Gondor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers32.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers32.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers11.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers7.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0"/>
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers22.0">
+	<possede xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj6.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers7.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj6.0">
+	<estPossedePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers22.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers7.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Saroumane</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Maiar"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">1000 Troisième Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Saruman"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj7.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Arme"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Hadhafang</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Hadhafang"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu7.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Númenor</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/N%C3%BAmenor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers31.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers31.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers8.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu4.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0">
+	<possede xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj7.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu4.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers8.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj7.0">
+	<estPossedePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers8.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Thranduil</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Elfe"/>
+	<owl:sameAs rdf:resource="http://wikidata.dbpedia.org/resource/Q746840"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj8.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Arme"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Narsil </nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Narsil"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu8.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Champs aux Iris</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Gladden_Fields"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers8.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers6.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers6.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers8.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers22.0"/>
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers15.0">
+	<possede xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj8.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj8.0">
+	<estPossedePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers15.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers9.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Gimli</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Nain">
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Dwarf_(Middle-earth)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers9.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Nain"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">2879 Troisième Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Gimli_(Lord_of_the_Rings)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj9.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Bijou"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Vilya</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Vilya"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu9.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Andunië</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Anduni%C3%AB"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers33.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers9.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers9.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers33.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers13.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers11.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu5.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0">
+	<possede xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj9.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu5.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers11.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj9.0">
+	<estPossedePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Femelle"/>
+	<foaf:name>Galadriel</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Elfe"/>
+	<owl:sameAs rdf:resource="http://wikidata.dbpedia.org/resource/Q204274"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj10.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Bijou"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Narya</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Narya"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu10.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Doriath</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Doriath"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers32.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers32.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers6.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers14.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers22.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu5.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0">
+	<possede xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj11.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu5.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj11.0">
+	<estPossedePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers11.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Bilbon</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Hobbit">
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Hobbit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers11.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Hobbit"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Bilbo_Baggins"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/obj11.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Bijou"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Nenya</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Nenya"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu11.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+	<nom xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">Gondolin</nom>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Gondolin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers34.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers34.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers3.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers18.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers13.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu6.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu6.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers13.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Frodon</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Hobbit"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Frodo_Baggins"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers35.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers35.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers13.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers18.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers22.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers14.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers14.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers13.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Faramir</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Humain"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">2983 Troisième Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Faramir_I"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers24.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers23.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers23.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers24.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers19.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers22.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers34.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers34.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers14.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Aule</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Vala">
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Vala_(Middle-earth)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers14.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Vala"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Aule"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers24.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers13.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers13.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers24.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers7.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers20.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers16.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu7.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu7.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers16.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers15.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Elendil</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Humain"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">3119 Second Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Elendil"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers18.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers32.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers32.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers18.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers20.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers7.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers23.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu6.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu6.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers23.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers16.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Roi-Sorcier d’Angmar</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Nazgûl">
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Nazg%C3%BBl"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers16.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Nazgûl"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Witch-king_of_Angmar"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers15.0">
+	<aEnfant xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers21.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers21.0">
+	<aParents xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers15.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers14.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers28.0">
+	<estEnnemyde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers22.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers19.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers19.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers17.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Radagast</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Istari">
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Istari"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers17.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Istari"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Radagast"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers22.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers26.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu8.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu8.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers26.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers18.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Celeborn</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Elfe"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Celeborn"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers5.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers16.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers21.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu9.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu9.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers21.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers19.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Femelle"/>
+	<foaf:name>Melian</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Maiar"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Melian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers6.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers9.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers15.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu9.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu9.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers15.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers20.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Samsagace</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Hobbit"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Samwise_Gamgee"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers6.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers8.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers22.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu3.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers22.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers21.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Isildur</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Humain"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">3209 Second Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Isildur"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers7.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers17.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers24.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu6.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu6.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers24.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers22.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Morgoth</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Vala"/>
+	<owl:sameAs rdf:resource="http://wikidata.dbpedia.org/resource/Q80453"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers18.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers27.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu10.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu10.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers27.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers23.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Boromir</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Humain"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">2978 Troisième Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Boromir"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers10.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers19.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers28.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu11.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu11.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers28.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers24.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Denethor </foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Humain"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">2930 Troisième Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Denethor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers20.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers29.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu1.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu1.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers29.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers25.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Thorin</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Nain"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">2746 Troisième Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Thorin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers31.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu6.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu6.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers31.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers26.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Gollum</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Hobbit"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">2440 Troisième Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Gollum"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers32.0">
+	<habite xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu1.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/lieu1.0">
+	<estHabitePar xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers32.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers27.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Femelle"/>
+	<foaf:name>Elwing</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Elfe"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">503 Premier Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Elwing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers11.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers28.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Eärendil</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Peredhel">
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Half-elven"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers28.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Peredhel"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">503 Premier Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/E%C3%A4rendil"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers13.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers29.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Femelle"/>
+	<foaf:name>Gilraen</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Humain"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">2907 Troisième Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Gilraen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers26.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers20.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers30.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Arathorn</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Humain"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">2873 Troisième Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Arathorn"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers26.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers12.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers31.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Eldarion</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Humain"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">120 Quatrième  Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Eldarion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers21.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers32.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Femelle"/>
+	<foaf:name>Celebrían</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Elfe"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Celebr%C3%ADan"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers24.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers4.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers33.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Glóin</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Nain"/>
+	<estNeEn xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/">2783  Troisième Âge</estNeEn>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Gl%C3%B3in"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers24.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers2.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers34.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+	<foaf:name>Finarfin</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Elfe"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/Finarfin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers25.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers11.0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers35.0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Femelle"/>
+	<foaf:name>Eärwen</foaf:name>
+	<rdf:type rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Elfe"/>
+	<owl:sameAs rdf:resource="http://dbpedia.org/resource/E%C3%A4rwen"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers30.0">
+	<estAmisde xmlns="http://www.semanticweb.org/mathilde/ontologies/2015/0/" rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/pers1.0"/>
+</rdf:Description>
+
+</rdf:RDF>
