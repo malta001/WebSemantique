@@ -33,6 +33,26 @@
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#aFille -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#aFille">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Femelle"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/aEnfant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#aFils -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#aFils">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/aEnfant"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#aMere -->
 
     <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#aMere">
@@ -58,7 +78,6 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/aEnfant">
         <rdfs:range rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/aParents"/>
     </owl:ObjectProperty>
     
 
@@ -229,6 +248,83 @@
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/estAmisde"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&foaf;name"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#aFils"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#aPere"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Male"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/aEnfant"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#aFille"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Femelle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#aMere"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Femelle"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/possede"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/aParents"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/estNeEn"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/estEnnemyde"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/habite"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -268,7 +364,21 @@
 
     <!-- http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/estHabitePar"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/nom"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -315,6 +425,20 @@
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/estPossedePar"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mathilde/ontologies/2015/0/nom"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1706,14 +1830,6 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Elfe"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Hobbit"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Humain"/>
@@ -1723,6 +1839,14 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Nazgûl"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Peredhel"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Vala"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Etre-vivant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Lieu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/mathilde/ontologies/2015/0/Objet"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
